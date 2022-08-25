@@ -96,16 +96,16 @@ body {
   display: flex;
 }
 
-.discription .icons .eth h3 {
+.discription .icons .eth span {
   color: hsl(178, 100%, 50%);
 }
 
-.discription .icons .timer h3 {
+.discription .icons .timer span {
   color: hsl(215, 51%, 70%);
 }
 
-.discription .icons .eth h3,
-.discription .icons .timer h3 {
+.discription .icons .eth span,
+.discription .icons .timer span {
   margin: 0 0 0 10px;
 }
 
