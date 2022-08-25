@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  color: #fff;
+}
+
+.container {
+  width: 375px;
+  height: 80vh;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  padding: 30px;
+  margin: 15px;
+}
+
+.container .img-container {
+  height: 50%;
+  width: 100%;
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.img-container img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.img-container:hover::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/images/icon-view.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img-container:hover::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsl(178, 100%, 50%);
+  opacity: 0.3;
+  border-radius: 10px;
+}
+
+.discription {
+  padding: 20px 0;
+}
+
+.discription h2 {
+  margin: 0;
+}
+
+.discription h2:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.discription p {
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+}
+
+.discription .icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discription .icons .eth {
+  display: flex;
+}
+
+.discription .icons .timer {
+  display: flex;
+}
+
+.discription .icons .eth h4 {
+  color: hsl(178, 100%, 50%);
+}
+
+.discription .icons .timer h4 {
+  color: hsl(215, 51%, 70%);
+}
+
+.discription .icons .eth h4,
+.discription .icons .timer h4 {
+  margin: 0 0 0 10px;
+}
+
+hr {
+  border-color: hsl(215, 32%, 27%);
+  margin: 10px 0;
+}
+
+.creater {
+  display: flex;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.creater img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-right: 20px;
+}
+
+.creater h3 {
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.creater h3 span {
+  color: #fff;
+  cursor: pointer;
+}
+
+.creater h3 span:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+  position: absolute;
+  bottom: 10px;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: hsl(215, 51%, 70%);
+}
