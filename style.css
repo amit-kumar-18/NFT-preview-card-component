@@ -143,16 +143,6 @@ hr {
   color: hsl(178, 100%, 50%);
 }
 
-.attribution {
-  position: absolute;
-  bottom: 10px;
-}
-
-.attribution a {
-  text-decoration: none;
-  color: hsl(215, 51%, 70%);
-}
-
 @media (max-width: 350px) {
   .container {
     width: 280px;
@@ -160,9 +150,5 @@ hr {
 
   .creater h2 {
     font-size: 14px;
-  }
-
-  .attribution {
-    position: relative;
   }
 }
