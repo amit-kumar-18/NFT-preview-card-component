@@ -13,7 +13,7 @@ body {
   justify-content: center;
   height: 100vh;
   margin: 0;
-
+  padding: 0 10px;
   color: #fff;
 }
 
@@ -151,4 +151,18 @@ hr {
 .attribution a {
   text-decoration: none;
   color: hsl(215, 51%, 70%);
+}
+
+@media (max-width: 350px) {
+  .container {
+    width: 280px;
+  }
+
+  .creater h3 {
+    font-size: 14px;
+  }
+
+  .attribution {
+    position: relative;
+  }
 }
